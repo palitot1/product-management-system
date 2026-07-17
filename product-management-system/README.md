@@ -2,7 +2,7 @@
 
 Sistema de gerenciamento de produtos desenvolvido em JavaScript com o objetivo de praticar lógica de programação.
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - Listar todos os produtos cadastrados.
 - Listar apenas produtos disponíveis em estoque.
@@ -11,11 +11,11 @@ Sistema de gerenciamento de produtos desenvolvido em JavaScript com o objetivo d
 - Consultar a quantidade disponível de cada produto.
 - Buscar um produto pelo nome.
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - JavaScript
 
-## ▶️ Como executar
+##  Como executar
 
 ### Pré-requisitos
 
@@ -41,7 +41,7 @@ cd product-management-system
 index.js
 ```
 
-## 📚 Conceitos praticados
+##  Conceitos praticados
 
 - Variáveis
 - Funções
@@ -52,7 +52,7 @@ index.js
 - Manipulação de dados
 - Organização de código
 
-## 🎯 Objetivo
+##  Objetivo
 
 Criei este projeto para colocar em prática os conceitos de JavaScript aprendidos durante os estudos, desenvolvendo um sistema simples de gerenciamento de produtos.
 
