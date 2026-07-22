@@ -52,6 +52,16 @@ function listarProdutosSemEstoque(){
     console.log("voce ainda tem estoque de produtos")
 }
 
+function relatorio(){
+    console.log("==========Relatorio==========");
+    console.log(`Quantidade de produtos: ${produtos.length}`)
+    console.log("Produtos cadastrados:")
+    produtos.forEach((produto)  =>{
+        console.log(produto.nome)
+    });
+    console.log("=============================")
+}
+
 
 cadastrarProduto("Notebook", 3500, 5);
 cadastrarProduto("Mouse", 120, 20);
@@ -59,4 +69,5 @@ cadastrarProduto("Teclado", 250, 0);
 listarProdutos()
 buscarProduto("Notebook")
 aplicarDesconto(10)
-listarProdutosSemEstoque()
+listarProdutosSemEstoque();
+relatorio()
