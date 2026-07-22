@@ -75,8 +75,13 @@ function relatorio(){
 cadastrarProduto("Notebook", 3500, 5);
 cadastrarProduto("Mouse", 120, 20);
 cadastrarProduto("Teclado", 250, 0);
+
 listarProdutos()
+
 buscarProduto()
+
 console.log(aplicarDesconto(10))
+
 listarProdutosSemEstoque();
+
 relatorio()
