@@ -1,6 +1,7 @@
 let produtos = [];
 
 function cadastrarProduto(nome, preco, estoque){
+    
     let produto = {
         nome: nome,
         preco: preco,
@@ -8,19 +9,22 @@ function cadastrarProduto(nome, preco, estoque){
     }
 
     produtos.push(produto);
-    console.log(`Produto ${nome} cadastrado com sucesso!`);
+    console.log(`Produto ${nome} cadastrado com sucesso!
+        `);
 }
 
 function listarProdutos(){
+    console.log("==========Lista de Produtos==========")
     produtos.forEach((produto) => {
         console.log(`${produto.nome} - R$ ${produto.preco} - estoque: ${produto.estoque}`)
     })
 }
 
 function buscarProduto(nome){
+    console.log("==========Buscar Produto==========")
     for(let i = 0; i < produtos.length; i++){
         if(produtos[i].nome === nome){
-            console.log(`Produto encontrado!
+            console.log(`Produto encontrado:
                 
 nome: ${produtos[i].nome}
 preco: ${produtos[i].preco}
@@ -33,23 +37,28 @@ return;
 }
 
 function aplicarDesconto(percentual){
-    let descontoValor = produtos.map((desconto) => {
+    console.log("==========Aplicar Desconto==========")
+    let descontoValor = produtos.map((produto) => {
         return {
-            nome: produtos.nome,
-            preco: produtos.preco - (produtos.preco * percentual / 100)
-            
+            nome: produto.nome,
+            preco: produto.preco - (produto.preco * percentual / 100),
+            estoque: produto.estoque
         }
-    })
+    });
+    return descontoValor;
 }
 
+
+
 function listarProdutosSemEstoque(){
+    console.log("==========Produtos Sem Estoque==========")
     for(let i = 0; i < produtos.length; i++){
         if(produtos[i].estoque === 0){
             console.log(`estoque de ${produtos[i].nome} zerado`);
-            return;
+            
         }
     }
-    console.log("voce ainda tem estoque de produtos")
+    
 }
 
 function relatorio(){
@@ -67,7 +76,7 @@ cadastrarProduto("Notebook", 3500, 5);
 cadastrarProduto("Mouse", 120, 20);
 cadastrarProduto("Teclado", 250, 0);
 listarProdutos()
-buscarProduto("Notebook")
-aplicarDesconto(10)
+buscarProduto()
+console.log(aplicarDesconto(10))
 listarProdutosSemEstoque();
 relatorio()
