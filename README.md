@@ -33,7 +33,11 @@ Sistema para gerenciamento de produtos e controle de estoque.
 - Busca de informações
 - Organização do código
 
-## Lubrary-system
+## Bank-system
+
+Sistema bencario 
+
+## O que pratiquei ##
 
 - Variáveis
 - Funções
@@ -42,6 +46,20 @@ Sistema para gerenciamento de produtos e controle de estoque.
 - Estruturas de repetição (for)
 - Estruturas condicionais (if e else)
 - Manipulação de dados
+
+## Library-system
+
+Sistema de biblioteca para gerenciar e alugar livros
+
+## O que pratiquei ##
+
+- Criação de funções
+- Arrays e objetos
+- Estruturas de repetição (for)
+- Estruturas condicionais (if, else if e else)
+- Manipulação de objetos dentro de arrays
+- Organização do código em funções
+
 
 ##  Tecnologias
 
