@@ -37,7 +37,7 @@ Sistema para gerenciamento de produtos e controle de estoque.
 
 Sistema bencario 
 
-## O que pratiquei ##
+## O que pratiquei 
 
 - Variáveis
 - Funções
@@ -47,11 +47,11 @@ Sistema bencario
 - Estruturas condicionais (if e else)
 - Manipulação de dados
 
-## Library-system
+## Library-system 
 
 Sistema de biblioteca para gerenciar e alugar livros
 
-## O que pratiquei ##
+## O que pratiquei 
 
 - Criação de funções
 - Arrays e objetos
@@ -64,7 +64,7 @@ Sistema de biblioteca para gerenciar e alugar livros
 
 Sistema de gegenciamento de produtos
 
-## Funcionalidades ##
+## Funcionalidades 
 Cadastro de produtos
 Listagem de todos os produtos
 Busca de produtos pelo nome
@@ -73,7 +73,7 @@ Listagem de produtos sem estoque
 Geração de um relatório com os produtos cadastrados
 Conceitos praticados
 
-## Durante o desenvolvimento deste projeto pratiquei: ##
+## Durante o desenvolvimento deste projeto pratiquei: 
 
 Variáveis
 Funções
