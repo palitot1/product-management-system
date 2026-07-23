@@ -33,6 +33,16 @@ Sistema para gerenciamento de produtos e controle de estoque.
 - Busca de informações
 - Organização do código
 
+## Lubrary-system
+
+- Variáveis
+- Funções
+- Arrays
+- Objetos
+- Estruturas de repetição (for)
+- Estruturas condicionais (if e else)
+- Manipulação de dados
+
 ##  Tecnologias
 
 - JavaScript
