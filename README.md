@@ -33,6 +33,61 @@ Sistema para gerenciamento de produtos e controle de estoque.
 - Busca de informações
 - Organização do código
 
+## Bank-system
+
+Sistema bencario 
+
+## O que pratiquei 
+
+- Variáveis
+- Funções
+- Arrays
+- Objetos
+- Estruturas de repetição (for)
+- Estruturas condicionais (if e else)
+- Manipulação de dados
+
+## Library-system 
+
+Sistema de biblioteca para gerenciar e alugar livros
+
+## O que pratiquei 
+
+- Criação de funções
+- Arrays e objetos
+- Estruturas de repetição (for)
+- Estruturas condicionais (if, else if e else)
+- Manipulação de objetos dentro de arrays
+- Organização do código em funções
+
+## product-system-v1
+
+Sistema de gegenciamento de produtos
+
+## Funcionalidades 
+Cadastro de produtos
+Listagem de todos os produtos
+Busca de produtos pelo nome
+Aplicação de desconto utilizando
+Listagem de produtos sem estoque
+Geração de um relatório com os produtos cadastrados
+Conceitos praticados
+
+## Durante o desenvolvimento deste projeto pratiquei: 
+
+Variáveis
+Funções
+Objetos
+Arrays
+Estruturas de repetição (for e forEach)
+Condicionais (if e else)
+Método map()
+push()
+return
+Template Strings
+Organização de código
+
+
 ##  Tecnologias
 
 - JavaScript
