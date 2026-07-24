@@ -18,10 +18,30 @@ function cadastrarLivro(id, titulo, autor, categoria, preco, estoque){
 }
 
 function listarLivro(){
+    console.log("==================Listar Livros==================")
     for(let i = 0; i < livros.length; i++){
         console.log(livros[i])
     }
 }
 
-cadastrarLivro(1,  "A sutil arte", "percy", "Auto ajuda", 50, 10)
+function buscarPeloId(id) {
+    console.log("==================Busca Pelo ID==================")
+   let resultado = livros.find((livro) =>{
+        return livro.id === id
+   })
+   console.log(resultado)
+}
+
+function filtrarCategoria(categoria){
+    console.log("==================Busca livros por Categoria==================")
+    let livroCategoria = livros.filter((livro) =>{
+        return livro.categoria === categoria
+    })
+    console.log(livroCategoria)
+}
+
+cadastrarLivro(1,  "A sutil arte", "percy", "Auto ", 50, 10)
+cadastrarLivro(2,  "A sutil arte", "percy", "Auto ajuda", 50, 10)
 listarLivro()
+buscarPeloId(2)
+filtrarCategoria("Auto ajuda")
